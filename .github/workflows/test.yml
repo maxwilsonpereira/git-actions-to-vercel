@@ -1,5 +1,4 @@
-name: Pull Request Test and Deploy
-
+name: Pull Request Test and Lint
 on:
   pull_request:
     types: [opened, synchronize, reopened]
