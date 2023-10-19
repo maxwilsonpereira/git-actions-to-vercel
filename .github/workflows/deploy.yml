@@ -33,9 +33,8 @@ jobs:
           npm install
           npm run build
 
-      # to check if build directory was created
-      - name: Debug workspace contents
-        run: ls -R
+      - name: Display a message
+        run: echo "Deploying App"
 
       - name: Deploy to Firebase
         if: success()
