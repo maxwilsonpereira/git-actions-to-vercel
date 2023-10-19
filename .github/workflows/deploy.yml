@@ -33,6 +33,10 @@ jobs:
           npm install
           npm run build
 
+      # to check if build directory was created
+      - name: Debug workspace contents
+        run: ls -R
+
       - name: Deploy to Firebase
         if: success()
         run: firebase deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}"
