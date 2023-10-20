@@ -8,12 +8,12 @@ https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
 
 ### INSTALLATION
 
-- NEXT: `npm install next@latest`
+- NEXT: `npm install next@latest -g`
 - NEW APP (with Jest and React Testing Library): `npx create-next-app@latest --example with-jest with-jest-app`
-- TEST: `npm i eslint-plugin-testing-library`
+- TEST and LINT:
+  `npm i eslint-plugin-testing-library`
+  `npm i --save-dev eslint-config-next`
 
-## GITHUB ACTIONS
+## GITHUB ACTIONS:
 
-### Events that trigger workflows
-
-https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
+LOOK: `C:./.github/_SAMPLES_MAX/_ABOUT_MAX.md`
