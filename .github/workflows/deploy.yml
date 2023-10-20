@@ -1,4 +1,4 @@
-name: Firebase deployment
+name: Vercel deployment
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  firebase-deploy:
+  vercel-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -33,6 +33,6 @@ jobs:
           npm install
           npm run build
 
-      - name: Deploy to Firebase
+      - name: Deploy to Vercel
         if: success()
         run: firebase deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}"
