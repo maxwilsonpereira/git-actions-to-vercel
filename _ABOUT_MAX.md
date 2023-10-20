@@ -12,7 +12,8 @@ https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
 
 ### INSTALLATION
 
-**DON'T USE TEMPLATES! Use the basic one to create your Next.js app!**
+- DON'T USE TEMPLATES! Use the basic one to create your Next.js app!
+- USE src so you can put a folder `components` also there.
 
 - NEXT: `npm install next@latest -g`
 - TEST and LINT:
