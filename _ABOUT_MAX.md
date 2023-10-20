@@ -20,6 +20,6 @@ https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
   `npm i eslint-plugin-testing-library`
   `npm i --save-dev eslint-config-next`
 
-## GITHUB ACTIONS:
+## GITHUB ACTIONS
 
 LOOK: `C:./.github/_SAMPLES_MAX/_ABOUT_MAX.md`
