@@ -1,6 +1,8 @@
 # Deploying Your Vercel Application with GitHub Actions
 # https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
 
+# APP: https://git-actions-to-vercel.vercel.app/
+
 name: Vercel Deployment
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
