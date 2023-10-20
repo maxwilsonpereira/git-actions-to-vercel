@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>GitHub Actions CI/CD Testing</title>
+        <title>GitHub Actions CI/CD</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className={styles.title}>GitHub Actions CI/CD Testing</h1>
+        <h1 className={styles.title}>GitHub Actions CI/CD</h1>
       </main>
 
       <footer className={styles.footer}>

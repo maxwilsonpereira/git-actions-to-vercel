@@ -1,3 +1,7 @@
+## IMPORTANT
+
+- DEVELOPMENT: `npm run dev` INSTEAD OF `npm start`
+
 ## NEXT.JS: The React Framework for the Web
 
 https://nextjs.org/
