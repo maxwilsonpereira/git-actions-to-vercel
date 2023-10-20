@@ -1,0 +1,38 @@
+name: Vercel deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  vercel-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install Firebase Tools
+        run: npm install -g firebase-tools
+
+      - name: Build the App
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy to Vercel
+        if: success()
+        run: firebase deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}"
