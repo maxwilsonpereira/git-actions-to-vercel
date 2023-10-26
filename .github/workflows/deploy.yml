@@ -4,6 +4,8 @@
 
 # However, if you need additional customizations, such as running specific build scripts or additional steps before deploying to Vercel, then you might want to keep or modify this workflow according to your specific requirements.
 
+# The way it is now. As soon as you push code to the main branch, Vercel is gonna initiate the first deploy as well as Git Actions is going to start the workflows. After the "test.yml" workflow is completed, Git Action is going to trigger a second and unnecessary deploy to Vercel.
+
 # HOW TO DEPLOY, GET THE SECRETS AND IDs (to save on GitHub/Settings/Secrets and variables/actions)
 # Deploying Your Vercel Application with GitHub Actions:
 # https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
