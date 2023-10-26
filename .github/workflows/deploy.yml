@@ -1,4 +1,4 @@
-# HOW TO DEPLOY, GET THE SECRETS AND IDs (to save on GitHub)
+# HOW TO DEPLOY, GET THE SECRETS AND IDs (to save on GitHub/Settings/Secrets and variables/actions)
 # Deploying Your Vercel Application with GitHub Actions:
 # https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
 
@@ -15,9 +15,10 @@ on:
 #     branches:
 #       - main
 
-env:
-  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+# these are not needed
+# env:
+#   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+#   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
 jobs:
   Deploy-Production:
