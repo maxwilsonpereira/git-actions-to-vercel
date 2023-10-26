@@ -1,4 +1,5 @@
-# Deploying Your Vercel Application with GitHub Actions
+# HOW TO DEPLOY, GET THE SECRETS AND IDs (to save on GitHub)
+# Deploying Your Vercel Application with GitHub Actions:
 # https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
 
 # APP: https://git-actions-to-vercel.vercel.app/
@@ -9,6 +10,10 @@ on:
     workflows: ['Pull Request Test and Lint']
     types:
       - completed
+# on:
+#   push:
+#     branches:
+#       - main
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}

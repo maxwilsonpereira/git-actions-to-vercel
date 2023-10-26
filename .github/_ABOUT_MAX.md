@@ -1,8 +1,8 @@
 ## DIRECTORY:
 
-`root\.github\workflows\workflow.yml`
+`root\.github\workflows\workflow.yml` - create the `.github` dir yourself
 
-## Configuring GitHub Actions for Vercel
+# HOW TO DEPLOY, GET THE SECRETS AND IDs (to save on GitHub) - Configuring GitHub Actions for Vercel
 
 `https://vercel.com/guides/how-can-i-use-github-actions-with-vercel`
 

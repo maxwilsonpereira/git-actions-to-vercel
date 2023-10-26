@@ -1,6 +1,6 @@
 ## APP
 
-https://git-actions-to-vercel-maxwilsonpereira.vercel.app/
+`https://git-actions-to-vercel-maxwilsonpereira.vercel.app/`
 
 ## IMPORTANT
 
@@ -8,11 +8,11 @@ https://git-actions-to-vercel-maxwilsonpereira.vercel.app/
 
 ## NEXT.JS: The React Framework for the Web
 
-https://nextjs.org/
+`https://nextjs.org/`
 
 ## Dynamic Routes
 
-https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
+`https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes`
 
 ### INSTALLATION
 
